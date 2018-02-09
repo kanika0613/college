@@ -1,14 +1,13 @@
-package model;
+package backend.model;
+
 
 public class Student {
-	int yearOfEnrollment;
-	int id;
-	String studentName;
-	Student student;
 	
-	public Student(){
-		new Student();
-	}
+	private int yearOfEnrollment;
+	private int id;
+	private String name;
+	private Department dept;
+	
 	public int getYearOfEnrollment() {
 		return yearOfEnrollment;
 	}
@@ -21,11 +20,11 @@ public class Student {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getStudentName() {
-		return studentName;
+	public String getName() {
+		return name;
 	}
-	public void setStudentName(String studentName) {
-		this.studentName = studentName;
+	public void setName(String name) {
+		this.name = name;
 	}
 	public Department getDept() {
 		return dept;
@@ -33,5 +32,6 @@ public class Student {
 	public void setDept(Department dept) {
 		this.dept = dept;
 	}
-	Department dept;
+	
+	
 }

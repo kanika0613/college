@@ -1,6 +1,6 @@
 package college;
 
-import model.Student;
+import backend.model.Student;
 
 public class Implementation {
 	public static void main(String[] args) {
