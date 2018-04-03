@@ -12,4 +12,6 @@ public class Implementation {
 	Student two = new Student();
 	Implementation ob2 = new Implementation();
 	
+	Student three = new Student();
+	Implementation ob3 = new Implementation();
 }
