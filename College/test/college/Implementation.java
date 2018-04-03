@@ -8,5 +8,8 @@ public class Implementation {
 	}
 	Student one = new Student();
 	Implementation ob = new Implementation();
+
+	Student two = new Student();
+	Implementation ob2 = new Implementation();
 	
 }
